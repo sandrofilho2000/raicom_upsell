@@ -7,7 +7,7 @@ export function getApiClient(ctx?: any) {
   const { accessToken } = parseCookies(ctx)
 
   const api = axios.create({
-    baseURL: process.env.NEXT_PUBLIC_HOST
+    baseURL: process.env.REMOTE_API_URL
   })
 
   if (accessToken) {

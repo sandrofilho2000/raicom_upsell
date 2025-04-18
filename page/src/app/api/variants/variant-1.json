@@ -1,8 +1,8 @@
 {
     "name": "Variant 1",
     "id": 1,
-    "chances_of_winning": 1,
-    "countdown_minutes": 10,
+    "chances_of_winning": 5,
+    "countdown_minutes": 15,
     "products": [
         {
             "id": 1,
@@ -64,9 +64,10 @@
         }
     ],
     "copy_title": {
-        "full_title": "🎉 Spin the Wheel & Win Amazing Prizes! 🎉",
-        "highlight": "Amazing Prizes!"
+        "full_title": "🎡 Spin It to Win It – Prizes Up for Grabs! 🎡",
+        "highlight": "Win It"
     },
+    "copy_text": "<p class=\"mb-2\" style=\"border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); --tw-border-opacity: 1; --tw-shadow: 0 0 #0000; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59, 130, 246, 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; margin-bottom: 0.5rem; color: rgb(102, 102, 102); font-family: Inter, &quot;Inter Fallback&quot;; text-align: center;\">Take a spin and uncover amazing prizes! From free gifts to exclusive discounts, every spin has something special in store.</p><p class=\"mb-2\" style=\"border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); --tw-border-opacity: 1; --tw-shadow: 0 0 #0000; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59, 130, 246, 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; margin-bottom: 0.5rem; color: rgb(102, 102, 102); font-family: Inter, &quot;Inter Fallback&quot;; text-align: center;\">Why wait? Every turn of the wheel could bring you a&nbsp;<span class=\"text-primary font-bold\" style=\"border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); --tw-border-opacity: 1; --tw-shadow: 0 0 #0000; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59, 130, 246, 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; color: rgb(124, 98, 200); font-weight: 700; --tw-text-opacity: 1;\">surprise!</span>&nbsp;Enjoy the thrill and discover your next&nbsp;<span class=\"text-primary font-bold\" style=\"border-width: 0px; border-style: solid; border-color: rgb(229, 231, 235); --tw-border-opacity: 1; --tw-shadow: 0 0 #0000; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: #fff; --tw-ring-color: rgba(59, 130, 246, 0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; color: rgb(124, 98, 200); font-weight: 700; --tw-text-opacity: 1;\">great reward today!</span></p>",
     "gifts_title": {
         "full_title": "Gifts You Might Win",
         "highlight": "Might Win"

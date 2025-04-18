@@ -5,7 +5,7 @@ from django.db import models
 
 @admin.register(Variant)
 class VariantAdmin(admin.ModelAdmin):
-    list_display = ['name', "chances_of_winning", "active"]
+    list_display = ['name', 'copy_full_title', "chances_of_winning", "active"]
     list_editable = ["chances_of_winning", 'active']
 
     formfield_overrides = { 

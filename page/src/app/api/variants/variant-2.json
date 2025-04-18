@@ -1,7 +1,7 @@
 {
     "name": "Variant 2",
     "id": 2,
-    "chances_of_winning": 5,
+    "chances_of_winning": 3,
     "countdown_minutes": 10,
     "products": [
         {
@@ -67,6 +67,7 @@
         "full_title": "🎰 Spin to Win Big! 🎰",
         "highlight": "Win Big!"
     },
+    "copy_text": "<p data-start=\"99\" data-end=\"256\" class=\"\"><strong data-start=\"99\" data-end=\"154\"><font color=\"#7c62c8\" style=\"\">Give the wheel a whirl and unlock exciting </font><font color=\"#7c62c8\" style=\"\">rewards</font><font color=\"#7c62c8\" style=\"\">!</font></strong> Whether it’s a freebie or a members-only deal, every spin brings a chance to win something awesome.</p><p>\r\n</p><p data-start=\"258\" data-end=\"367\" class=\"\">Don’t miss out — each spin is packed with surprises. <font color=\"#ce0000\"><b>Feel the excitement</b></font> and claim your next big treat today!</p>",
     "gifts_title": {
         "full_title": "Exclusive Gifts Waiting for You",
         "highlight": "Gifts"

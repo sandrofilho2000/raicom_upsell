@@ -6,13 +6,13 @@ const server = z.object({
 })
 
 const client = z.object({
-  NEXT_PUBLIC_HOST: z.string()
+  REMOTE_API_URL: z.string()
 })
 
 const processEnv = {
   DATABASE_URL: process.env.DATABASE_URL,
   TOKEN_SECRET: process.env.TOKEN_SECRET,
-  NEXT_PUBLIC_HOST: process.env.NEXT_PUBLIC_HOST
+  REMOTE_API_URL: process.env.REMOTE_API_URL
 }
 
 // Don't touch the part below
@@ -56,3 +56,4 @@ if (!!process.env.SKIP_ENV_VALIDATION === false) {
 }
 
 export { env }
+

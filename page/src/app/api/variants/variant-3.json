@@ -1,7 +1,7 @@
 {
     "name": "Variant 2",
     "id": 2,
-    "chances_of_winning": 3,
+    "chances_of_winning": 1,
     "countdown_minutes": 10,
     "products": [
         {
@@ -67,6 +67,7 @@
         "full_title": "🏆 Spin & Score Incredible Rewards! 🏆",
         "highlight": "Incredible Rewards"
     },
+    "copy_text": "<p data-start=\"99\" data-end=\"264\" class=\"\">Take a chance and spin the prize wheel for amazing rewards! Whether it’s a special discount or an exclusive perk, every spin gives you a shot at something great.</p><p data-start=\"99\" data-end=\"264\" class=\"\"><br></p><p data-start=\"99\" data-end=\"264\" class=\"\">Don’t miss your chance — each turn is <font color=\"#7c62c8\"><b>full of surprises</b></font>. Join the fun and grab your next exciting reward today!</p>",
     "gifts_title": {
         "full_title": "Exclusive Gifts Waiting for You",
         "highlight": "Gifts"
