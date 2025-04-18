@@ -1,15 +1,25 @@
 "use client"
 import { iVariant } from "@/interfaces";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaExchangeAlt } from "react-icons/fa";
 
 
 const VariantMenu = ({ data }: { data: iVariant[] }) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [isScrolled, setIsScrolled] = useState(false)
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollY = window.scrollY
+            setIsScrolled(scrollY > 15)
+        }
+
+        window.addEventListener('scroll', handleScroll)
+        return () => window.removeEventListener('scroll', handleScroll)
+    }, [])
     return (
-        <div className={`fixed bottom-24 right-4 flex transition-all flex-col items-end gap-2`}>
+        <div className={`fixed ${isScrolled ? 'bottom-24' : 'bottom-4'} right-4 flex transition-all flex-col items-end gap-2`}>
             <div id="dropdownHover" className={`z-10 ${!isMenuOpen && 'hidden'} bg-white divide-y divide-gray-100 rounded-lg w-44`}>
                 <ul className="py-2 text-sm" aria-labelledby="dropdownHoverButton">
                     {

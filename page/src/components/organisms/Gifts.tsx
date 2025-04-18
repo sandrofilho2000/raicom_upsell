@@ -23,7 +23,7 @@ const Gifts = ({ data }: { data: TitleProps }) => {
             <div className="gifts-wrapper flex gap-6 justify-center flex-wrap">
                 {
                     gifts.map((item, index) => (
-                        <div key={index} className="w-52 h-52 rounded-xl gift-card p-4">
+                        <div key={index} className=" w-40 h-40 md:w-52 md:h-52 rounded-xl gift-card p-4">
                             <div className="w-full h-2/3 img_container">
                                 <img src={item.image} className="h-full mx-auto object-contain " />
                             </div>
