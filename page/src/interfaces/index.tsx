@@ -35,6 +35,7 @@ export interface iPage {
   countdown_minutes: number;
   chances_of_winning: number;
   copy_title: iTitle;
+  copy_text: string;
   gifts_title: iTitle;
   jackpot_title: iTitle;
   products_table_title: iTitle;

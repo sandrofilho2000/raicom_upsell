@@ -14,6 +14,7 @@ const PageMain = ({ data }: { data: iPage }) => {
         chances_of_winning,
         products,
         copy_title,
+        copy_text,
         gifts_title,
         jackpot_title,
         products_table_title,
@@ -23,7 +24,7 @@ const PageMain = ({ data }: { data: iPage }) => {
     return (
         <main className="p-4 pb-20">
             <Countdown minutes={countdown_minutes} />
-            <Copy data={copy_title} />
+            <Copy data={{ title: copy_title, text: copy_text }} />
             <Gifts data={{ gifts: gifts, title: gifts_title }} />
             <Jackpot data={{ gifts: gifts, title: jackpot_title, chances_of_winning: chances_of_winning }} />
             <ProductsTable data={{ products: products, title: products_table_title }} />

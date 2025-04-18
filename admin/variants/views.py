@@ -61,6 +61,7 @@ class VariantDetail(generics.RetrieveAPIView):
             "countdown_minutes": data['countdown_minutes'],
             "gifts": data['jackpot_set']['gifts'],
             "products": data['products'],
+            "copy_text": data['copy_text'],
             "copy_title": {
                 "full_title": data['copy_full_title'],
                 "highlight": data['copy_title_highlight']

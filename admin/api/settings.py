@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'products',
     'jackpot_set',
     'rest_framework',
+    'django_summernote',
     'corsheaders'
 ]
 

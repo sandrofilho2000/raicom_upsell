@@ -28,6 +28,9 @@ class Variant(models.Model):
 
     copy_full_title = models.CharField(max_length=255, verbose_name="Copy section full title", default="🎰 Spin to Win Big! 🎰")
     copy_title_highlight = models.CharField(max_length=255, verbose_name="Copy section title highlight", default="Win Big!")
+    copy_text = models.TextField(null=True,blank=True, verbose_name="Copy Text", default="""Take a spin and uncover amazing prizes! From free gifts to exclusive discounts, every spin has something special in store.
+
+Why wait? Every turn of the wheel could bring you a surprise! Enjoy the thrill and discover your next great reward today!""")
 
     gifts_full_title = models.CharField(max_length=255, verbose_name="Gifts section full title", default="Gifts You Might Win")
     gifts_title_highlight = models.CharField(max_length=255, verbose_name="Gifts section title highlight", default="Might Win")
