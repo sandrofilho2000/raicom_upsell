@@ -1,0 +1,82 @@
+{
+    "name": "Variant 2",
+    "id": 2,
+    "chances_of_winning": 3,
+    "countdown_minutes": 10,
+    "products": [
+        {
+            "id": 1,
+            "name": "DR Pro DR210 Tripod Mic Stand With Telescoping Boom",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/451141000000000-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 50,
+            "price": 89.99
+        }
+    ],
+    "gifts": [
+        {
+            "id": 1,
+            "name": "Proline PL4KD Double-Braced Keyboard X-Stand",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/J12599000000000-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 70,
+            "price": 79.99
+        },
+        {
+            "id": 2,
+            "name": "Ernie Ball Regular Slinky 2221 (10-46) Nickel Wound Electric Guitar Strings",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/100622000000000-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 100,
+            "price": 6.99
+        },
+        {
+            "id": 3,
+            "name": "BOSS TU-3 Chromatic Tuner Pedal",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/712517000000000-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 15,
+            "price": 99.99
+        },
+        {
+            "id": 4,
+            "name": "Elixir Phosphor Bronze Acoustic Guitar Strings With NANOWEB Coating, Extra Light (.010-.047)",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/101569000000000-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 100,
+            "price": 19.99
+        },
+        {
+            "id": 5,
+            "name": "Fender Flash 2.0 Pro Rechargeable Tuner Black",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/L99463000001000-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 80,
+            "price": 34
+        },
+        {
+            "id": 6,
+            "name": "Voodoo Lab Pedal Power X8 Isolated Power Supply",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/L79589000000000-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 35,
+            "price": 169.99
+        }
+    ],
+    "copy_title": {
+        "full_title": "🏆 Spin & Score Incredible Rewards! 🏆",
+        "highlight": "Incredible Rewards"
+    },
+    "gifts_title": {
+        "full_title": "Exclusive Gifts Waiting for You",
+        "highlight": "Gifts"
+    },
+    "jackpot_title": {
+        "full_title": "Try Your Luck & Unlock Big Rewards",
+        "highlight": "Big Rewards"
+    },
+    "products_table_title": {
+        "full_title": "Check Out Your Musical Picks",
+        "highlight": "Musical Picks"
+    }
+}

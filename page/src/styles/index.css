@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+button{
+  text-transform: initial !important;
+  margin: 0 !important;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+#buySection{
+  -webkit-box-shadow: 0px 1px 27px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 27px -7px rgba(0,0,0,0.75);
+box-shadow: 0px 1px 27px -7px rgba(0,0,0,0.75);
+}
+
+.gift-card, #dropdownHover{
+  -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.09);
+-moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.09);
+box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.09);
+}
+
+.doors {
+    display: flex;
+    gap: 8px;
+    overflow: hidden;
+    justify-content: center;
+  }
+  
+  .door {
+    background: #fff;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25) inset;
+    width: 110px;
+    height: 170px;
+    border-radius: 1ex;
+    position: relative;
+
+    &:last-of-type::after{
+      content: '';
+      color: red;
+      background-image: url(../../public/lever_icon.svg);
+      background-repeat: no-repeat;
+      background-position: left;
+      background-size: contain;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100px;
+      height: 100px;
+      transform: translateX(100%);
+    }
+  }
+  
+  .boxes {
+    transition: transform 1s ease-in-out;
+  }
+  
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    width: 110px;
+    height: 110px;
+  }
+  
+  .buttons {
+    margin: 1rem 0 2rem 0;
+  }
+  
+  button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin: 0 0.2rem 0 0.2rem;
+  }
+  
+  .info {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    color: #222;
+  }
+
+  a, p, span, small, th, tr, td{
+    color: #666666;
+  }
+
+  .giftwinnermodal{
+    width: 300px;
+    height: auto;
+  }
+
+  .giftwinnermodal .img-container{
+    height: 180px;
+  }
+
+  .giftwinnermodal .buttons {
+    margin: 0 auto;
+  }
+
+  .giftwinnermodal img{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: block;
+    max-height: 200px;
+  }
+
+
+@media (min-width: 768px) {
+    .doors {
+      gap: 16px;
+      .door{
+        width: 160px;
+        height: 240px;
+
+        &:last-of-type::after{
+          height: 140px;
+        }
+      }
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .doors {
+      gap: 16px;
+      .door{
+        width: 180px;
+        height: 270px;
+
+        &:last-of-type::after{
+          height: 150px;
+        }
+      }
+    }
+}

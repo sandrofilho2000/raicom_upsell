@@ -1,0 +1,82 @@
+{
+    "name": "Variant 1",
+    "id": 1,
+    "chances_of_winning": 1,
+    "countdown_minutes": 10,
+    "products": [
+        {
+            "id": 1,
+            "name": "Yamaha MX88BK Synthesizer Keyboard - Black",
+            "image": "https://cdn.awsli.com.br/400x400/2775/2775576/produto/341820362/1-jqoy2m56e9.jpg",
+            "qtn": 1,
+            "discount": 10,
+            "price": 3000
+        }
+    ],
+    "gifts": [
+        {
+            "id": 1,
+            "name": "7A Grip Eva Drumsticks",
+            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_873000-MLU74865371828_032024-F.webp",
+            "qtn": 1,
+            "discount": 100,
+            "price": 120
+        },
+        {
+            "id": 2,
+            "name": "Giannini GTG-36S Electroacoustic Guitar",
+            "image": "https://cdn.awsli.com.br/2610/2610529/produto/227256728d4a44c5062.jpg",
+            "qtn": 1,
+            "discount": 100,
+            "price": 600
+        },
+        {
+            "id": 3,
+            "name": "Giannini GDC-1 CEQ Electroacoustic Guitar",
+            "image": "https://a-static.mlcdn.com.br/800x560/violao-eletroacustico-giannini-gdc1-ceq-folk-cutaway-vsb/cheirodemusica1/gdc1ceqvsb25/faab06d91fbf4aec149d2fe7cdfda66f.jpeg",
+            "qtn": 1,
+            "discount": 100,
+            "price": 600
+        },
+        {
+            "id": 4,
+            "name": "Basso Polyester Strap - Yellow Stripe",
+            "image": "https://http2.mlstatic.com/D_Q_NP_895567-MLU73673555591_122023-O.webp",
+            "qtn": 1,
+            "discount": 100,
+            "price": 20
+        },
+        {
+            "id": 5,
+            "name": "Giannini Acoustic Strings Steel 011 65/35",
+            "image": "https://http2.mlstatic.com/D_Q_NP_2X_965859-MLB47818296582_102021-E-encordoamento-giannini-acustico-cordas-violo-aco-011-6535.webp",
+            "qtn": 1,
+            "discount": 100,
+            "price": 5
+        },
+        {
+            "id": 6,
+            "name": "ELETROLON Mono P10 Cable 90º",
+            "image": "https://http2.mlstatic.com/D_NQ_NP_2X_772325-MLU78690243505_082024-F.webp",
+            "qtn": 1,
+            "discount": 100,
+            "price": 5
+        }
+    ],
+    "copy_title": {
+        "full_title": "🎉 Spin the Wheel & Win Amazing Prizes! 🎉",
+        "highlight": "Amazing Prizes!"
+    },
+    "gifts_title": {
+        "full_title": "Gifts You Might Win",
+        "highlight": "Might Win"
+    },
+    "jackpot_title": {
+        "full_title": "Spin & Win Awesome Prizes",
+        "highlight": "Awesome Prizes"
+    },
+    "products_table_title": {
+        "full_title": "Your Products",
+        "highlight": "Products"
+    }
+}

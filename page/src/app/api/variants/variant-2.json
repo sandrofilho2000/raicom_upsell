@@ -1,0 +1,82 @@
+{
+    "name": "Variant 2",
+    "id": 2,
+    "chances_of_winning": 5,
+    "countdown_minutes": 10,
+    "products": [
+        {
+            "id": 1,
+            "name": "Martin DJRE Junior StreetLegend Dreadnought Acoustic-Electric Guitar Burst",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/M19089000001000-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 50,
+            "price": 899
+        }
+    ],
+    "gifts": [
+        {
+            "id": 1,
+            "name": "Jyker Professional Guitar Capo – Perfect Tuning and Effortless Performance for Acoustic and Electric Guitars",
+            "image": "https://jykerusa.com/cdn/shop/files/Image_7.png?v=1738620005&width=1920",
+            "qtn": 1,
+            "discount": 70,
+            "price": 8.99
+        },
+        {
+            "id": 2,
+            "name": "BOSS BIC-10 Straight to Angled Instrument Cable 10 ft. Blue",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/M16625000001003-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 20,
+            "price": 600
+        },
+        {
+            "id": 3,
+            "name": "Fender x Hello Kitty Original Straight to Straight Instrument Cable 10 ft. Pink",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/M13896000001001-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 20,
+            "price": 27.99
+        },
+        {
+            "id": 4,
+            "name": "DW 10 Lug True Hoop Batter and Snare Side Pair 14 in. Chrome",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/J17206000001001-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 20,
+            "price": 109.99
+        },
+        {
+            "id": 5,
+            "name": "Road Runner Avenue II Acoustic Guitar Gig Bag Black",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/L58878000001000-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 70,
+            "price": 5
+        },
+        {
+            "id": 6,
+            "name": "Snark Super Snark SS-3 Rechargeable Clip-On Tuner Black",
+            "image": "https://media.guitarcenter.com/is/image/MMGS7/L84549000001000-00-264x264.jpg",
+            "qtn": 1,
+            "discount": 70,
+            "price": 5
+        }
+    ],
+    "copy_title": {
+        "full_title": "🎰 Spin to Win Big! 🎰",
+        "highlight": "Win Big!"
+    },
+    "gifts_title": {
+        "full_title": "Exclusive Gifts Waiting for You",
+        "highlight": "Gifts"
+    },
+    "jackpot_title": {
+        "full_title": "Try Your Luck & Unlock Big Rewards",
+        "highlight": "Big Rewards"
+    },
+    "products_table_title": {
+        "full_title": "Check Out Your Musical Picks",
+        "highlight": "Musical Picks"
+    }
+}
